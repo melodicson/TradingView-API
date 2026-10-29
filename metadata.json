@@ -1,0 +1,8 @@
+{
+  "name": "TradingView Market Data Hub",
+  "description": "Interactive market data dashboard, screener, live charts, technical analysis, and strategy backtesting playground powered by TradingView-API.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

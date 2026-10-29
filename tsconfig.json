@@ -3,7 +3,8 @@
     "target": "ES2022",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "lib": ["ES2023"],
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
     "types": ["node"],
     "strict": true,
     "noUnusedLocals": true,
@@ -21,5 +22,5 @@
     "outDir": "dist",
     "rootDir": "."
   },
-  "include": ["src", "tests", "vitest.config.ts", "vitest.live.config.ts"]
+  "include": ["src", "client", "server.ts", "vite.config.ts", "tests", "vitest.config.ts", "vitest.live.config.ts"]
 }
